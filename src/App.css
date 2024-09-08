@@ -1,0 +1,160 @@
+
+.App {
+  text-align: center;
+}
+
+header {
+  background-color: saddlebrown;
+  color: white;
+  padding: 10px 0;
+  
+  background-size: auto;
+  
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 180px;
+  cursor: pointer;
+  
+ 
+  
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  
+}
+
+
+h2 {
+  color:blueviolet;
+  font-size: 36px;
+  margin-bottom: 20px;
+  animation: slideIn 1s ease;
+}
+p {
+  color: rebeccapurple;
+  font-size: 18px;
+
+}
+img {
+ 
+  
+  width: 400px;
+  height: auto;
+  border-radius: 15px;
+  animation: spin 2s linear infinite;
+  z-index: 1;
+  filter:drop-shadow(10px 7px 10px grey )
+}
+  
+
+img:hover {
+  transform: scale(1.05,1.05); 
+  transition:all 1s;
+}
+.pict {
+  width: 400px;
+  height: auto; 
+  border-radius: 7;
+}
+h1{
+  text-align: center;
+  background:teal;
+}
+h3{
+  text-align: left;
+  font-style: oblique;
+  color: maroon;
+
+}
+h4{
+  text-decoration: wavy;
+  text-align: left;
+  margin: auto;
+  color: chocolate;
+}
+.volt {
+  float: left;
+  top: 50px; 
+  left: 500px;
+  width: 500px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+.bolt{
+  float: right;
+  width: 500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-right: 30px;
+}
+
+.oil {
+    clear: both; 
+    text-align:left; 
+    margin-top: 20px; 
+    color:darkblue;
+    font-style:initial ;
+    background: none;
+  }
+  .pil{
+    clear:both;
+    text-align:right;
+    top: 10%;
+    background: none;
+    color: blue;
+    margin-top: 20px;
+    
+  }
+  .pot{
+  background-color: black;
+    
+  }
+  
+button{
+  color:black;
+  background-color: cadetblue;
+  box-sizing: border-box;
+
+
+}
+.book{
+  position: absolute;
+  top: 30px; 
+  right: 30px;
+
+}
+.dark{
+  position: absolute;
+  bottom: 25px;
+  right: 30px;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: blueviolet;
+ 
+}
+.book{
+  background-color: blueviolet;
+  border-radius: 30px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+label{
+  margin: 30px;
+  padding: 10px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  color:black;
+  
+  
+}
+
+
+
